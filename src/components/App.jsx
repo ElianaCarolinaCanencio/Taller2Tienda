@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import ProductDetails from './ProductDetails';
 import Cart from './Cart';
-import './App.css';
+// import './App.css';
 
 const App = () => {
   const [products] = useState([

@@ -6,9 +6,9 @@ import Cart from './Cart';
 
 const App = () => {
   const [products] = useState([
-    { id: 1, name: 'Producto 1', price: 10, description: 'Descripción del Producto 1' },
-    { id: 2, name: 'Producto 2', price: 20, description: 'Descripción del Producto 2' },
-    { id: 3, name: 'Producto 3', price: 30, description: 'Descripción del Producto 3' },
+    { id: 1, name: 'IPHONE', price: 100, description: 'Diseñado para conquistarte' },
+    { id: 2, name: 'MAC', price: 200, description: 'Increíblemente delgado y rápido, para trabajar, jugar y crear en cualquier lugar' },
+    { id: 3, name: 'IPAD', price: 300, description: 'Oportunidad para crear' },
   ]);
 
   const [selectedProduct, setSelectedProduct] = useState(null);

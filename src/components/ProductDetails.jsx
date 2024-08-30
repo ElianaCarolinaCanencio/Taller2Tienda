@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './ProductItem.css';
 const ProductDetails = ({ product, onAddToCart }) => {
   if (!product) {
     return <div className="product-details">Selecciona un producto para ver los detalles.</div>;

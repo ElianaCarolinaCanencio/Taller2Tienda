@@ -5,7 +5,7 @@ const Cart = ({ cartItems }) => {
 
   return (
     <div className="cart">
-      <h2>Carrito</h2>
+      <h2>Tu Carrito</h2>
       {cartItems.length === 0 && <p>El carrito está vacío</p>}
       <ul>
         {cartItems.map((item, index) => (
